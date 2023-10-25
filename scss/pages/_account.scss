@@ -1,0 +1,78 @@
+.bg-bg {
+  background: #858181;
+  height: 440px;
+}
+.bg-ji1 {
+  padding-bottom: 160px;
+  .insta {
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    .dumo {
+      width: 150px;
+      height: 150px;
+      flex-shrink: 0;
+      fill: var(--text-in-field, #0e0d0d);
+      background: #ccc;
+      border-radius: 50%;
+    }
+    .pora {
+      .kil {
+        color: var(--text-tittle, #1c3554);
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* Heading/Bold/H4 - 32px */
+        font-family: Rubik;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; /* 150% */
+        text-transform: capitalize;
+      }
+      .full {
+        color: var(--text-body, #808080);
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* Heading/Medium/H6 - 16px */
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+.ortadan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 64px;
+  padding-bottom: 40px;
+  .figma {
+    color: var(--text-body, #808080);
+
+    /* Heading/Reguler/H4 - 32px */
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 150% */
+    border-bottom: 5px solid #fff5;
+  }
+  .figma:hover {
+    color: var(--text-tittle, #1c3554);
+
+    /* Heading/Medium/H4 - 32px */
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 150% */
+    border-bottom: 5px solid #f72585;
+    transition: 0.7s;
+  }
+}

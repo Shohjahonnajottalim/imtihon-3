@@ -1,0 +1,110 @@
+.bgbg2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  padding-top: 56px;
+  .xero {
+    width: 608px;
+    height: 517px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--text-in-field, #ccc);
+  }
+  .xero2 {
+    max-width: 552px;
+    .lilo {
+      color: var(--text-tittle, #1c3554);
+      font-variant-numeric: lining-nums proportional-nums;
+
+      /* Heading/Bold/H4 - 32px */
+      font-family: Rubik;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px; /* 150% */
+      text-transform: capitalize;
+      max-width: 552px;
+    }
+    .gif {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 0;
+      .lor {
+        color: var(--text-body, #808080);
+
+        /* Paragraph/Semibold/Caption - 14px */
+        font-family: Montserrat SemiBold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+      }
+    }
+    .lorem-s {
+      color: var(--text-body, #808080);
+
+      /* Paragraph/Reguler/Body - 16px */
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px; /* 168.75% */
+      padding-bottom: 72px;
+    }
+    .btn-e {
+      display: inline-flex;
+      padding: 12px 32px;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 8px;
+      background: var(--primary-pink, #f72585);
+      color: var(--text-white, #fff);
+      border: 1px solid #f72585;
+
+      /* Paragraph/Semibold/Body - 16px */
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px; /* 200% */
+    }
+    .btn-e:hover {
+      background: #fff;
+      color: #f72585;
+      transition: 0.6s;
+    }
+  }
+}
+.conten11 {
+  .end-z {
+    padding-top: 40px;
+    padding-bottom: 160px;
+    .cont {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: center;
+      .btncha {
+        color: var(--text-in-field, #ccc);
+        text-align: center;
+
+        /* Paragraph/Semibold/Body - 16px */
+        font-family: Montserrat SemiBold;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 200% */
+        padding: 6px 12px;
+        flex-shrink: 0;
+        border-radius: 4px;
+      }
+      .btncha:hover {
+        color: #fff;
+        transition: 0.5s;
+        background: var(--primary-pink, #f72585);
+      }
+    }
+  }
+}

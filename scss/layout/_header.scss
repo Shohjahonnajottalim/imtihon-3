@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  max-width: 1232px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.nav-bar3 {
+  display: flex;
+  gap: 16px;
+}
+.nav-bar2 {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  // flex-wrap: wrap;
+  align-items: center;
+  padding: 36px 0;
+  gap: 10px;
+  color: var(--text-tittle, #1c3554);
+
+  /* Paragraph/Semibold/Body - 16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    input {
+      width: 343px;
+      height: 48px;
+      border-radius: 8px;
+      border: 2px solid var(--text-in-field, #fff);
+      color: var(--text-tittle, #fff);
+
+      /* Paragraph/Semibold/Body - 16px */
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px; /* 200% */
+      padding-left: 16px;
+      background-image: url(/images/Search1.png);
+      background-repeat: no-repeat;
+      background-position-x: 306px;
+      background-position-y: 11px;
+    }
+    .input1 {
+      width: 343px;
+      height: 48px;
+      border-radius: 8px;
+      border: 2px solid var(--text-in-field, ##fff);
+      color: var(--text-tittle, #fff);
+
+      /* Paragraph/Semibold/Body - 16px */
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px; /* 200% */
+      padding-left: 16px;
+      background-color: #858181;
+      background-image: url(/images/Search1.png);
+      background-repeat: no-repeat;
+      background-position-x: 306px;
+      background-position-y: 11px;
+    }
+  }
+}
+/* Dropdown Button */
+.dropbtn {
+  color: var(--text-tittle, #1c3554);
+
+  /* Paragraph/Bold/Body - 16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 200% */
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: var(--text-tittle, #1c3554);
+
+  /* Paragraph/Bold/Body - 16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 200% */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  // background-color: #3e8e41;
+}
+nav1 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #858181;
+  // background: #fff/;
+  // box-shadow: 10px 10px 10px #1c3554;
+  z-index: 3;
+}
+$breakpoints: (
+  sm: (
+    min: 576px,
+    max: 575.98px,
+  ),
+  md: (
+    min: 768px,
+    max: 767.98px,
+  ),
+  lg: (
+    min: 992px,
+    max: 991.98px,
+  ),
+  xl: (
+    min: 1200px,
+    max: 1199.98px,
+  ),
+  xxl: (
+    min: 1400px,
+    max: 1399.98px,
+  ),
+);
